@@ -91,7 +91,7 @@ public class QueryUrlBuilder {
 	}
 
 	private <T> void appendList(Iterator<T> iterator) {
-		params.append("[]=");
+		params.append("=");
 
 		boolean isFirstValue = true;
 		while (iterator.hasNext()) {
